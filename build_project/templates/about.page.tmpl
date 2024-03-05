@@ -1,0 +1,12 @@
+{{template "base" .}}
+{{define "content"}}
+<div class = "container">
+    <div class = "row">
+        <h1>This is the about page</h1>
+        <p> this is a test2 </p>
+        <p> this is a test3 </p>
+        <p> this is a test4 </p>
+        <p> this came from the tempale: {{index .StringMap "test"}} </p>
+    </div>
+</div>
+{{end}}
